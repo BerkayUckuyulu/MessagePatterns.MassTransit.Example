@@ -1,0 +1,1 @@
+# MessagePatterns.MassTransit.Example
