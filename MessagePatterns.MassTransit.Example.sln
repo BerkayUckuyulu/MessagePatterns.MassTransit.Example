@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2PPattern.Publisher", "src\MessagePatterns.P2P\P2PPattern.Publisher\P2PPattern.Publisher.csproj", "{2D17C803-D4C0-4E21-BF13-F6C7D282EAE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2PPattern.Consumer", "src\MessagePatterns.P2P\P2PPattern.Consumer\P2PPattern.Consumer.csproj", "{1ACDBBE0-3A01-42FF-B4A4-26445789E97C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePatterns.Shared", "src\MessagePatterns.Shared\MessagePatterns.Shared.csproj", "{7A21A446-0309-45DE-8747-F5FB3462B934}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8DD9599-C3B7-498B-B30B-E0B21013DA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DD9599-C3B7-498B-B30B-E0B21013DA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DD9599-C3B7-498B-B30B-E0B21013DA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DD9599-C3B7-498B-B30B-E0B21013DA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D17C803-D4C0-4E21-BF13-F6C7D282EAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D17C803-D4C0-4E21-BF13-F6C7D282EAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D17C803-D4C0-4E21-BF13-F6C7D282EAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D17C803-D4C0-4E21-BF13-F6C7D282EAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ACDBBE0-3A01-42FF-B4A4-26445789E97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ACDBBE0-3A01-42FF-B4A4-26445789E97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ACDBBE0-3A01-42FF-B4A4-26445789E97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ACDBBE0-3A01-42FF-B4A4-26445789E97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A21A446-0309-45DE-8747-F5FB3462B934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A21A446-0309-45DE-8747-F5FB3462B934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A21A446-0309-45DE-8747-F5FB3462B934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A21A446-0309-45DE-8747-F5FB3462B934}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
