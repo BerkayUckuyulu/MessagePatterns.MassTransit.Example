@@ -3,15 +3,17 @@ using MessagePatterns.Shared.Helpers;
 using MessagePatterns.Shared.Messages.Abstract;
 using MessagePatterns.Shared.Messages.Concrete;
 
-Console.WriteLine("P2P Publisher");
+Console.WriteLine("Publish-Subscribe Publisher");
 
 var bus = BusHelper.GetBus();
 
-var sendEndpoint = BusHelper.GetSendEndpoint(bus, "p2p");
 
+await bus.StartAsync();
 
-for (int i = 1; i < 100; i++)
+int i = 0;
+while (i < 100)
 {
-    await sendEndpoint.Send<IMessage>(new ExampleMessage() { Text = $"mesaj - {i}" });
+    await bus.Publish<IMessage>(new ExampleMessage() { Text = $"message - {i++}" });
     await Task.Delay(1000);
+
 }

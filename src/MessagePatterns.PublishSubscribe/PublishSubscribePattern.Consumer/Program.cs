@@ -2,9 +2,10 @@
 using MessagePatterns.Shared.Consumers;
 using MessagePatterns.Shared.Helpers;
 
-Console.WriteLine("P2P Consumer");
+Console.WriteLine("Publish-Subscribe Consumer");
 
-var bus = BusHelper.GetBus<ExampleMessageConsumer>("p2p");
+
+var bus = BusHelper.GetBus<ExampleMessageConsumer>("publish-subscribe");
 
 await bus.StartAsync();
 
