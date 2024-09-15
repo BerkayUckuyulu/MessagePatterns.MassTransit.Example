@@ -5,7 +5,6 @@ using MessagePatterns.Shared.Messages.Concrete;
 
 Console.WriteLine("P2P Publisher");
 
-///summary
 //Point to Point tasarım kalıbı, adresi verilen exchange ya da queue ya direkt olarak mesajın iletilmesidir.
 
 var bus = BusHelper.GetBus();
