@@ -2,13 +2,16 @@
 using MassTransit;
 using MessagePatterns.Shared.Consumers;
 using MessagePatterns.Shared.Helpers;
-using MessagePatterns.Shared.Messages.Abstract;
 
 Console.WriteLine("WorkQueue Consumer!");
 
 var rabbitMQSettings = RabbitMqConfigurationHelper.RabbitMqConnectionConfigs;
 var bus = Bus.Factory.CreateUsingRabbitMq((factory) =>
 {
+
+    // Publisher tarafından gönderilen mesajı consume eden bir veya birden fazla consumerdan oluşan mesaj desenidir. Genel kullanım olarak tüm iş parçacıkları aynı queueyıu dinler ve mesajlar sırayla consumerlar tarafından tüketilir. Bu sayede her mesaj sadece bir kez işlenir ve tüm consumerlar mesaj yükünü paylaşır.
+    
+
     factory.Host(RabbitMqConfigurationHelper.RabbitMqUri, h =>
     {
         h.Username(rabbitMQSettings.UserName);
