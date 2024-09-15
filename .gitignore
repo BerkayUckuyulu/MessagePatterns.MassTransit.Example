@@ -1,0 +1,186 @@
+# .NET Core / .NET 5+ build results
+bin/
+obj/
+out/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuget/
+*.packages/
+
+# Restore Files
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.suo
+*.csproj.user
+*.dbmdl
+*.jfm
+
+# Rider
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# ReSharper
+_ReSharper*
+*.DotSettings
+*.DotSettings.user
+*.DotSettings.*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Build results of Visual Studio for Mac
+*.pidb
+*.userprefs
+
+# npm packages
+node_modules/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Jest
+jest-debug.log
+jest-report.html
+
+# TypeScript v1 declaration files
+typings/
+
+# Windows image file caches
+Thumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IntelliJ IDEA
+*.idea/
+*.iws
+*.iml
+
+# Xcode
+*.xcuserstate
+*.xcuserdata/
+*.xcworkspace/
+*.xcscheme
+*.xctest/
+*.xcodeproj/
+
+# macOS
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Archive files
+*.7z
+*.zip
+*.tar
+*.gz
+*.rar
+*.bz2
+*.xz
+*.zst
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.metadata/
+*.log
+*.tmp
+*.swp
+*.swo
+*.project
+*.classpath
+
+# SBT
+target/
+project/target/
+project/project/
+*.class
+*.jar
+*.war
+
+# Maven
+target/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+*.ninja
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+.config/
+coverage/
+InstalledFiles
+*.log
+
+# Haskell
+dist/
+
+# Go
+bin/
+pkg/
+
+# Rust
+target/
+
+# Swift
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+*.swiftpm/
+*.swiftmodule
+*.swiftdoc
+
+# VSCode settings
+.vscode/
