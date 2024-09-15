@@ -5,8 +5,10 @@ using MessagePatterns.Shared.Messages.Concrete;
 
 Console.WriteLine("Publish-Subscribe Publisher");
 
-var bus = BusHelper.GetBus();
 
+// Subscribe olan tüm consumerlara mesajın gönderildiği mesaj kalıbıdır. MassTransitte publish edilen mesaj türünü consume eden tüm consumerların queuelarına mesaj gönderilecektir.
+
+var bus = BusHelper.GetBus();
 
 await bus.StartAsync();
 

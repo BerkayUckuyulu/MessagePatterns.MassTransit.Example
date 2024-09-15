@@ -31,6 +31,12 @@ namespace MessagePatterns.Shared.Helpers
 
                 factory.ReceiveEndpoint(queueName, endPoint =>
                 {
+
+                    // Bu şekilde massTransit tarafından default olarak fanout tipinde oluşturulan exchange türü değiştirilebilir.
+                    //endPoint.Bind<T>(x =>
+                    //{
+                    //    x.ExchangeType = RabbitMQ.Client.ExchangeType.Direct;
+                    //});
                     endPoint.Consumer<T>();
                 });
 
